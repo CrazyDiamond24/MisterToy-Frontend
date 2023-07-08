@@ -1,8 +1,10 @@
 import Axios from 'axios'
 // import { router } from '@/router'
 
-const BASE_URL = process.env.NODE_ENV === 'production'
-    ? '/api/'
+import Axios from 'axios'
+
+let BASE_URL = process.env.NODE_ENV === 'production'
+    ? 'https://mistertoy-backend.onrender.com/api/'
     : '//localhost:3030/api/'
 
 const axios = Axios.create({
