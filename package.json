@@ -17,9 +17,5 @@
     "vue-router": "^4.1.6",
     "vue3-google-map": "^0.15.0",
     "vuex": "^4.0.2"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.4.2"
   }
 }
