@@ -1,0 +1,32 @@
+// Main colors
+$clr1: #8dace6; 
+$clr2: #f9e300;  
+$clr3: #ed1e79; 
+
+// Accent colors
+$clr4: #ffd400; 
+$clr5: #ff8600;  
+$clr6: #00b200; 
+$clr11: #0072c6;
+
+// Neutral colors
+$clr7: #f2f2f2;  
+$clr8: #cccccc;  
+$clr9: #999999;  
+$clr10: #000000; 
+
+// LAYOUT
+$layoutPadding: 20px;
+
+// LAYOUT BREAKPOINTS
+$break-narrow: 600px;
+$break-normal: 900px;
+$break-wide: 1200px;
+
+$padded-break-narrow: $break-narrow + $layoutPadding * 2;
+$padded-break-normal: $break-normal + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;
+
+
+$header-height:15vh;
+$main-height:85vh;

@@ -1,0 +1,72 @@
+.toy-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .toy-edit-header {
+    font-size: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2rem;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  select[multiple] {
+    height: 6rem;
+  }
+  
+  .btns {
+    margin-top: 2rem;
+  }
+  
+  .edit-save-btn {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .edit-save-btn:hover {
+    background-color: #449d48;
+  }
+  
+  .edit-back-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .edit-back-btn:hover {
+    background-color: #1c7ed8;
+  }
+  

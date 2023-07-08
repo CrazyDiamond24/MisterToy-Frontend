@@ -1,0 +1,15 @@
+.toy-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .clean-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex
+  }
+  
+  .toy {
+    margin: 1rem;
+  }

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $clr1;
+    font-family: 'Fredoka One', cursive;
+    &::-webkit-scrollbar {
+        width: 12px;
+      }
+    
+      &::-webkit-scrollbar-track {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        background-color: $clr7;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+      }
+    
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: darken($clr7, 10%);
+      }
+    }
+
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,140 @@
+#signup-page {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+  
+    img {
+      display: block;
+      width: 100px;
+      margin: 0 auto 40px;
+    }
+  
+    h1 {
+      font-size: 24px;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      color: #fff;
+      &:first-of-type {
+        background-color: #1877f2;
+      }
+      &:last-of-type {
+        background-color: #4285f4;
+      }
+    }
+  
+    .separator {
+      position: relative;
+      text-align: center;
+      margin-bottom: 20px;
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        height: 1px;
+        background-color: #ddd;
+      }
+      &:before {
+        left: 0;
+      }
+      &:after {
+        right: 0;
+      }
+      span {
+        background-color: #fff;
+        padding: 0 10px;
+      }
+    }
+  
+    form {
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      label {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+  
+      input {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        &:focus {
+          border-color: #1877f2;
+        }
+      }
+  
+      input[type="number"] {
+        width: auto;
+        display: inline-block;
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+  
+      small {
+        display: block;
+        font-size: 12px;
+        margin-top: 5px;
+        color: #999;
+      }
+  
+      input[type="checkbox"] {
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+  
+      .terms-link,
+      .privacy-policy-link {
+        color: #1877f2;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+  
+      button[type="submit"] {
+        background-color: #1db954;
+        &:hover {
+          background-color: #1ed760;
+        }
+      }
+    }
+  
+    .login-link {
+      text-align: center;
+      font-size: 14px;
+      a {
+        color: #1877f2;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

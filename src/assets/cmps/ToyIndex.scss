@@ -1,0 +1,56 @@
+.toy-index {
+  position: relative;
+  margin-block-end: 100px;
+  
+  .add-toy-link {
+    color: $clr7;
+    background-color: $clr6;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.1s ease-in-out;
+    margin-block-start: 30px;
+    font-size: 1.2rem;
+    
+    &:hover {
+      background-color: $clr3;
+      text-decoration: none;
+      transform: scale(1.2);
+    }
+  }
+  
+  .toy-index-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.paging {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  
+  button {
+    background-color: $clr6;
+    color: $clr7;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+    
+    &:hover {
+      background-color: $clr3;
+      text-decoration: none;
+      transform: scale(1.1);
+    }
+    
+    &:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+}

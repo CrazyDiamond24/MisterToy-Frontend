@@ -1,0 +1,54 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: $clr2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Fredoka One', cursive;
+}
+
+.app-logo img {
+  height: 3rem;
+  width: 160px;
+  margin-inline-start: 30px;
+}
+
+.app-nav {
+    text-align: right;
+    margin-inline-end: 30px;
+  }
+  
+  .app-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    display:flex;
+  }
+  
+  .app-nav li {
+    margin: 0 0.5rem;
+  }
+  
+  .app-nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: $clr11;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    transition: all 0.2s ease;
+  }
+  
+  .app-nav a:hover {
+    color: #fff;
+    background-color: $clr3;
+    transform: scale(1.1);
+  }

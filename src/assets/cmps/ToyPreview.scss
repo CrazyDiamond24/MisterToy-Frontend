@@ -1,0 +1,121 @@
+.toy-preview {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  height: 100%;
+  background-color: $clr7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  font-family: 'Fredoka One', cursive;
+
+  &:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .toy-name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .toy-price {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #10a20b;
+  }
+
+  .toy-labels {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+
+    .toy-label {
+      background-color: #fff;
+      color: $clr3;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease;
+
+      &:hover {
+        transform: translateY(-0.2rem);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      background-color: #14c1f0;
+    }
+  }
+
+  .preview-btns {
+    margin-block-start: 1rem;
+    display: flex;
+    gap: 10px;
+
+    .btn {
+      text-align: center;
+      background-color: $clr4;
+      text-decoration: none;
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 15px;
+      max-height: 50px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: $clr3;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  button {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    line-height: 1em;
+    background-color: transparent;
+    color: #21020a;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: rotate(90deg) scale(1.2);
+      color: #e51212;
+    }
+  }
+  .toy-preview-img {
+    object-fit: contain;
+    align-self: center;
+    width: 180px;
+    height: 150px;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease;
+  }
+  &:hover {
+    transform: scale(1.01);
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+}

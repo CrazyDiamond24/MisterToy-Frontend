@@ -1,0 +1,24 @@
+/* BASE */
+@import '../src/assets/setup/variables';
+@import '../src/assets/base/base';
+@import '../src/assets/base/layout';
+@import '../src/assets/base/helpers';
+@import '../src/assets/base/typography';
+
+
+/* HEADER FOOTER */
+@import '../src/assets/cmps/AppHeader';
+@import '../src/assets/cmps/AppFooter';
+
+/* APP */
+@import '../src/assets/cmps/ToyList';
+@import '../src/assets/cmps/ToyPreview';
+@import '../src/assets/cmps/ToyDetails';
+@import '../src/assets/cmps/ToyIndex';
+@import '../src/assets/cmps/ToyFilter';
+@import '../src/assets/cmps/ToyEdit';
+@import '../src/assets/cmps/Charts';
+@import '../src/assets/cmps/AboutPage';
+@import '../src/assets/cmps/HomePage';
+@import '../src/assets/cmps/signup.scss';
+@import '../src/assets/cmps/ReviewList.scss';
